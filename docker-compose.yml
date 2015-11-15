@@ -1,0 +1,12 @@
+web:
+  build: .
+  volumes:
+    - .:/usr/src/app/ourRailsApp
+  ports:
+    - "3000:3000"
+  links:
+    - db
+db:
+  image: library/mysql:latest
+  environment:
+    MYSQL_ROOT_PASSWORD: woshishui  

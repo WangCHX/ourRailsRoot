@@ -1,0 +1,3 @@
+[submodule "ourRailsApp"]
+	path = ourRailsApp
+	url = https://github.com/WangCHX/ourRailsApp 
